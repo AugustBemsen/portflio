@@ -3,7 +3,11 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+/**
+ * This is the home page
+ * @return {JSX.Element}
+ */
+const Home: NextPage = (): JSX.Element => {
   return (
     <div className={styles.container}>
       <Head>
